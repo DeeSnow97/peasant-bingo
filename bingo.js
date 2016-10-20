@@ -55,9 +55,9 @@ var consoleArguments = [ // this sounds a lot better in code
 ] // I want to believe no one wins the game
 
 // Init table
-Array(5).fill().map(function () {
+Array(size).fill().map(function () {
   var row = document.createElement('tr')
-  Array(5).fill().map(function () {
+  Array(size).fill().map(function () {
     var tile = document.createElement('td')
     var text = document.createElement('div')
     text.setAttribute('contenteditable', 'true')
